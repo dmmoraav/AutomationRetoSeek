@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <test name="Ingreso a la app">
+        <classes>
+            <!-- Incluye el paquete completo seguido del nombre de la clase de prueba -->
+            <class name="com.diegomora.AppTest"/>
+        </classes>
+    </test>
+</suite>
